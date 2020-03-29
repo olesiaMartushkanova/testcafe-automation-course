@@ -1,0 +1,25 @@
+{
+  "name": "testcafe-automation-course",
+  "version": "1.0.0",
+  "description": "test project following the testcafe udemy course",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olesiaMartushkanova/testcafe-automation-course.git"
+  },
+  "author": "Olesia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olesiaMartushkanova/testcafe-automation-course/issues"
+  },
+  "homepage": "https://github.com/olesiaMartushkanova/testcafe-automation-course#readme",
+  "devDependencies": {
+    "testcafe": "^1.8.3"
+  },
+  "dependencies": {
+    "prettier": "^2.0.2"
+  }
+}
