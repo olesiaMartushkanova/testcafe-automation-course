@@ -3,6 +3,11 @@ import {
     t
 } from 'testcafe'
 
+const exampleField = Selector('#developer-name');
+const submitBtn = Selector('#submit-button');
+const thankYouText = Selector('#article-header');
+const userName = "John Lennon"
+
 // prettier-ignore
 fixture `Getting started with TestCafe`
     .page `https://devexpress.github.io/testcafe/example/`
@@ -23,10 +28,6 @@ fixture `Getting started with TestCafe`
     })
 
 test('This test should pass', async t => {
-    const exampleField = Selector('#developer-name');
-    const submitBtn = Selector('#submit-button');
-    const thankYouText = Selector('#article-header');
-    const userName = "John Lennon"
     await t.typeText(exampleField, userName);
     await t.click(submitBtn);
 
@@ -34,10 +35,6 @@ test('This test should pass', async t => {
 })
 
 test('This test should fail', async t => {
-    const exampleField = Selector('#developer-name');
-    const submitBtn = Selector('#submit-button');
-    const thankYouText = Selector('#article-header');
-    const userName = "John Lennon"
     await t.typeText(exampleField, userName);
     await t.click(submitBtn);
 
