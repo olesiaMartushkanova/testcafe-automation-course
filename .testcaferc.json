@@ -1,0 +1,31 @@
+{
+    "speed": 1,
+    "skipJsErrors": true,
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "./src/reports/screenshots/",
+        "fullPage": true
+    },
+    "videoPath": "./src/reports/video/",
+    "videoOptions": {
+        "singleFile": true,
+        "failedOnly": true,
+        "pathPattern": "${FILE_INDEX}.mp4"
+    },
+    "filter": {
+        "fixture": "Getting started with TestCafe"
+    },
+    "selectorTimeout": 6000,
+    "assertionTimeout": 6000,
+    "pageLoadTimeout": 6000,
+    "color": true,
+    "disablePageCaching": true,
+    "reporter": [{
+            "name": "html",
+            "output": "src/reports/html-reporter.html"
+        },
+        {
+            "name": "list"
+        }
+    ]
+}
