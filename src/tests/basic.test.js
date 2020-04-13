@@ -2,10 +2,8 @@ import {
     Selector,
     t
 } from 'testcafe'
+import basicPage from '../pages/basicPage';
 
-const exampleField = Selector('#developer-name');
-const submitBtn = Selector('#submit-button');
-const thankYouText = Selector('#article-header');
 const userName = "John Lennon"
 
 // prettier-ignore
@@ -28,15 +26,15 @@ fixture `Getting started with TestCafe`
     })
 
 test('This test should pass', async t => {
-    await t.typeText(exampleField, userName);
-    await t.click(submitBtn);
+    await t.typeText(basicPage.exampleField, userName);
+    await t.click(basicPage.submitBtn);
 
-    await t.expect(thankYouText.innerText).contains(`Thank you, ${userName}!`);
+    await t.expect((basicPage.thankYouText).innerText).contains(`Thank you, ${userName}!`);
 })
 
 test('This test should fail', async t => {
-    await t.typeText(exampleField, userName);
-    await t.click(submitBtn);
+    await t.typeText(basicPage.exampleField, userName);
+    await t.click(basicPage.submitBtn);
 
-    await t.expect(thankYouText.innerText).contains(`Thank you, ${userName}!FAIL`);
+    await t.expect((basicPage.thankYouText).innerText).contains(`Thank you, ${userName}!FAIL`);
 })
