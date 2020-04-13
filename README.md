@@ -25,7 +25,7 @@ npm i
 
 ### Run Tests
 
-There are several qways to run the tests:
+There are several ways to run the tests:
 
 1. Using TestCafe Test Runner in VS Code
 
