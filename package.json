@@ -4,12 +4,12 @@
   "description": "test project following the testcafe udemy course",
   "main": "index.js",
   "scripts": {
-    "test:chrome": "testcafe chrome src/tests/*.test.js",
-    "test:chrome: headless": "testcafe chrome:deadless src/tests/*.test.js",
-    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X src/tests/*.test.js",
-    "test:safari": "testcafe safari src/tests/*.test.js",
-    "test:firefox": "testcafe firefox src/tests/*.test.js",
-    "test:ege": "testcafe chrome src/tests/*.test.js"
+    "test": "testcafe chrome src/tests/*/*.test.js",
+    "test:chrome: headless": "testcafe chrome:deadless src/tests/*/*.test.js",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X src/tests/*/*.test.js",
+    "test:safari": "testcafe safari src/tests/*/*.test.js",
+    "test:firefox": "testcafe firefox src/tests/*/*.test.js",
+    "test:ege": "testcafe chrome src/tests/*/*.test.js"
   },
   "repository": {
     "type": "git",

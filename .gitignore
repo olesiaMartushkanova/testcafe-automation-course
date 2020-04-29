@@ -2,3 +2,4 @@ node_modules
  .DS_Store
 src/reports/screenshots/*
 src/reports/video/*
+.vscode

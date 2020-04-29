@@ -12,9 +12,7 @@
         "failedOnly": true,
         "pathPattern": "${FILE_INDEX}.mp4"
     },
-    "filter": {
-        "fixture": "Getting started with TestCafe"
-    },
+    "filter": {},
     "selectorTimeout": 6000,
     "assertionTimeout": 6000,
     "pageLoadTimeout": 6000,
