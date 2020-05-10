@@ -1,10 +1,13 @@
 # Example of a framework for E2E testing with JavaScript + TestCafe
+
 Project created following the course: https://www.udemy.com/course/automated-testing-with-testcafe/
 
-Read about TestCafe here: 
+Read about TestCafe here:
 [TestCafe docs](https://devexpress.github.io/testcafe/)
 
 ## Getting Started
+
+Change from master
 
 ### Prerequisites
 
@@ -13,12 +16,14 @@ Read about TestCafe here:
 
 ### Installing
 
-1. Clone the project: 
+1. Clone the project:
+
 ```
 git clone https://github.com/olesiaMartushkanova/testcafe-automation-course
 ```
 
 2. Install node_modules:
+
 ```
 npm i
 ```
@@ -31,27 +36,38 @@ There are several ways to run the tests:
 
 2. npm commands (see package.json)
 
-Run in Chrome: 
+Run in Chrome:
+
 ```
 test:chrome
 ```
-Run in Chrome headless: 
+
+Run in Chrome headless:
+
 ```
 test:chrome: headless
 ```
-Run in mobile view: 
+
+Run in mobile view:
+
 ```
 test:chrome:mobile
 ```
-Run in Safari: 
+
+Run in Safari:
+
 ```
 test:safari
 ```
-Run in Firefox: 
+
+Run in Firefox:
+
 ```
 test:firefox
 ```
-Run in Edge: 
+
+Run in Edge:
+
 ```
 test:edge
 ```

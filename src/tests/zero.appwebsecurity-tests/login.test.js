@@ -4,7 +4,7 @@ import {
 
 fixture `Login`.page `http://zero.webappsecurity.com/`;
 
-test('Login with invalid credentials', async (t) => {
+test('User cannot login with invalid credentials', async (t) => {
     const signin_btn = Selector('#signin_button');
     const login_field = Selector('#user_login');
     const password_field = Selector('#user_password');
