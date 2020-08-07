@@ -1,27 +1,26 @@
 {
   "name": "testcafe-automation-course",
   "version": "1.0.0",
-  "description": "test project following the testcafe udemy course",
-  "main": "index.js",
+  "description": "Test project following the testcafe udemy course",
   "scripts": {
-    "test": "testcafe chrome src/tests/*/*.test.js",
-    "test:chrome: headless": "testcafe chrome:deadless src/tests/*/*.test.js",
-    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X src/tests/*/*.test.js",
-    "test:safari": "testcafe safari src/tests/*/*.test.js",
-    "test:firefox": "testcafe firefox src/tests/*/*.test.js",
-    "test:ege": "testcafe chrome src/tests/*/*.test.js"
+    "test": "testcafe chrome",
+    "test:chrome: headless": "testcafe chrome:headless",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X",
+    "test:safari": "testcafe safari",
+    "test:firefox": "testcafe firefox",
+    "test:ege": "testcafe chrome",
+    "lint": "eslint . --ext .js,.test.js --ignore-path .gitignore --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/olesiaMartushkanova/testcafe-automation-course.git"
   },
   "author": "Olesia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/olesiaMartushkanova/testcafe-automation-course/issues"
-  },
-  "homepage": "https://github.com/olesiaMartushkanova/testcafe-automation-course#readme",
+  "license": "UNLICENSED",
   "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-testcafe": "^0.2.1",
     "testcafe": "^1.8.3"
   },
   "dependencies": {

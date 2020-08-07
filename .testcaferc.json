@@ -1,12 +1,13 @@
 {
+    "src": ["tests/"],
     "speed": 1,
     "skipJsErrors": true,
     "screenshots": {
         "takeOnFails": true,
-        "path": "./src/reports/screenshots/",
+        "path": "reports/screenshots/",
         "fullPage": true
     },
-    "videoPath": "./src/reports/video/",
+    "videoPath": "reports/video/",
     "videoOptions": {
         "singleFile": true,
         "failedOnly": true,
@@ -20,7 +21,7 @@
     "disablePageCaching": true,
     "reporter": [{
             "name": "html",
-            "output": "src/reports/html-reporter.html"
+            "output": "reports/html-reporter.html"
         },
         {
             "name": "list"

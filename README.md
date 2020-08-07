@@ -1,15 +1,11 @@
 # Example of a framework for E2E testing with JavaScript + TestCafe
 
-Project created following the course: https://www.udemy.com/course/automated-testing-with-testcafe/
+Project created following the Udemy course: https://www.udemy.com/course/automated-testing-with-testcafe/
 
 Read about TestCafe here:
 [TestCafe docs](https://devexpress.github.io/testcafe/)
 
 ## Getting Started
-
-Change from master
-
-### Prerequisites
 
 - Install Node.js
 - If you are using VS Code install [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner)
